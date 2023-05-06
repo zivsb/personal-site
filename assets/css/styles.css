@@ -185,6 +185,7 @@ img {
 /* About */
 .about {
     margin-top: calc(var(--mb-2) + var(--header-height));
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 2rem;
@@ -200,9 +201,12 @@ img {
 }
 
 .about-text {
+    justify-self: center;
+    align-self: center;
     align-items: center;
     width: 80%;
     margin: 10px;
+    text-align: center;
 }
 
 .about__name {
@@ -221,6 +225,7 @@ img {
 
 .about__description {
     font-size: var(--h2-font-size);
+
 }
 /* Portfolio */
 .portfolio__nav{
@@ -442,6 +447,10 @@ img {
 
     .portfolio__container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-text {
+        text-align: left;
     }
 }
 
