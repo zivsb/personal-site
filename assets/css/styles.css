@@ -185,7 +185,6 @@ img {
 /* About */
 .about {
     margin-top: calc(var(--mb-2) + var(--header-height));
-    margin: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 2rem;
